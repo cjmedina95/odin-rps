@@ -7,7 +7,9 @@ Design a basic implemention of rock paper scissors that can be played in the bro
 ## Task List
 
 - [x] Design a function which randomly returns "Rock", "Paper", or "Scissors".
-- [ ] Design a case-insensitive `playRound()` function that plays a single round of RPS and returns a string which indicates the winner.
-- [ ] Write a new function called `game()` which calls `playRound()` to play a five round game of RPS and reports a loser and winner.
+- [x] Design a case-insensitive `playRound()` function that plays a single round of RPS and returns a string which indicates the winner.
+- [x] Write a new function called `game()` which calls `playRound()` to play a five round game of RPS and reports a loser and winner.
 
 ## Review
+
+Todo.
