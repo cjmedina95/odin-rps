@@ -29,7 +29,7 @@ function game() {
 
         let playerSelection = prompt("Round " + (i+1) + ": Enter choice (rock, paper, scissors):");
 
-        while (["rock", "paper", "scissors"].includes(playerSelection) === false) {
+        while (["rock", "paper", "scissors"].toLowerCase().includes(playerSelection) === false) {
             playerSelection = prompt("Try again. Please enter either rock, paper, or scissors.");
         }
 
